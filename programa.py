@@ -28,6 +28,9 @@ ojo1 = c.create_oval(360,100,395,130,fill="white",outline="OliveDrab1")
 ojo2 = c.create_oval(300,100,335,130,fill="white",outline="OliveDrab1")
 iris1 = c.create_oval(310,108,325,120,fill="SteelBlue1", outline="white")
 iris2 = c.create_oval(370,108,385,120,fill="SteelBlue1", outline="white")
+enojado1 = c.create_line(355,105,375,90, width=3)
+enojado2 = c.create_line(340,105,320,90, width=3)
+rectangulogrande = c.create_polygon(base/2,altura/2-10,base-10,altura/2-10,base-10,altura-50,base/4,altura-50,base/4,altura/2-10,fill="gray86")
 # Frame de contro
 
 ventana_Principal.mainloop()
